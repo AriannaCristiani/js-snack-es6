@@ -27,8 +27,15 @@ const bikes = [
 
 ];
 
+const lighterBike = bikes[0]
 
-console.log(bikes[2].peso)
+for (let i = 0 ; i < bikes.length ; i++ ) {
+    const currentElement = bikes[i];
+
+    if (currentElement.peso < lighterBike.peso){
+        console.log(currentElement)
+    }
+}
 
 
 
