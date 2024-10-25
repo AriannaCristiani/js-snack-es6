@@ -101,11 +101,18 @@ for ( let i = 0 ; i < footballClub.length ; i++){
 
     footballClub[i].puntiFatti = generateRandomNumber(min,max);
     footballClub[i].falliSubiti = generateRandomNumber(min,max);
+    delete footballClub[i].puntiFatti;
 }
 
 
-console.log(footballClub)
 
+//console.log(footballClub)
+
+const newArray = []
+
+newArray.push (footballClub)
+
+console.log(newArray)
 
 
 
