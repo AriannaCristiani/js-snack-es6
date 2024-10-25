@@ -7,27 +7,27 @@ Stampare a schermo la bici con peso minore.
 
 const bikes = [
     {
-
-     modello: 'triban'
+     
+     modello: 'triban',
      peso: '1830g'
 
     },
     {
 
-     modello: 'scott'
+     modello: 'scott',
      peso: '1750g'
 
     },
     {
 
-     modello: 'mountain'
+     modello: 'mountain',
      peso: '2010g'
 
     },
 
 ];
 
-console.log()
+console.log(bikes[2].peso)
 
 
 
