@@ -44,44 +44,45 @@ for (let i = 0 ; i < bikes.length ; i++ ) {
 /*
 Snack2
 Creare un array di oggetti di squadre di calcio.
- Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
 Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
 Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 */
 
-const juventus = [
+const footballClub = [
     {
 
-     nome: 'Locatelli',
-     falliSubiti: 0,
-     puntiFatti: 0
+     nome: 'Juventus',
+     puntiFatti: 0 ,
+     falliSubiti: 0
+     
 
     },
     {
 
-     nome: 'Fagioli',
+     nome: 'Roma',
      puntiFatti: 0,
      falliSubiti: 0
 
     },
     {
 
-     nome: 'Pogba',
+     nome: 'Inter',
      puntiFatti: 0,
      falliSubiti: 0
 
     },
     {
 
-     nome: 'Gatti',
+     nome: 'Genoa',
      puntiFatti: 0,
      falliSubiti: 0
 
     },
     {
 
-     nome: 'Vlahovic',
+     nome: 'Fiorentina',
      puntiFatti: 0,
      falliSubiti: 0
 
@@ -96,11 +97,14 @@ function generateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
-juventus[0].puntiFatti = generateRandomNumber(min, max);
-console.log(juventus)
+for ( let i = 0 ; i < footballClub.length ; i++){
+
+    footballClub[i].puntiFatti = generateRandomNumber(min,max);
+    footballClub[i].falliSubiti = generateRandomNumber(min,max);
+}
 
 
-
+console.log(footballClub)
 
 
 
