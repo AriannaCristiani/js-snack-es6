@@ -7,33 +7,28 @@ Stampare a schermo la bici con peso minore.
 
 const bikes = [
     {
-     
-     modello: 'triban',
-     peso: '1830g'
+
+        modello: 'triban',
+        peso: '1830g'
 
     },
     {
 
-     modello: 'scott',
-     peso: '1750g'
+        modello: 'scott',
+        peso: '1750g'
 
     },
     {
 
-     modello: 'mountain',
-     peso: '2010g'
+        modello: 'mountain',
+        peso: '2010g'
 
     },
 
 ];
 
+
 console.log(bikes[2].peso)
-
-
-
-
-
-
 
 
 
@@ -48,10 +43,54 @@ Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “
 Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 */
 
+const juventus = [
+    {
 
+     nome: 'Locatelli',
+     falliSubiti: '0',
+     puntiFatti: '0'
 
+    },
+    {
 
+     nome: 'Fagioli',
+     puntiFatti: '0',
+     falliSubiti: '0'
 
+    },
+    {
+
+     nome: 'Pogba',
+     puntiFatti: '0',
+     falliSubiti: '0'
+
+    },
+    {
+
+     nome: 'Gatti',
+     puntiFatti: '0',
+     falliSubiti: '0'
+
+    },
+    {
+
+     nome: 'Vlahovic',
+     puntiFatti: '0',
+     falliSubiti: '0'
+
+    },
+
+];
+
+const min = 0
+const max = 20
+
+function generateRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+juventus[0].puntiFatti = generateRandomNumber(min, max);
+console.log(juventus)
 
 
 
