@@ -9,19 +9,19 @@ const bikes = [
     {
 
         modello: 'triban',
-        peso: '1830g'
+        peso: '18'
 
     },
     {
 
         modello: 'scott',
-        peso: '1750g'
+        peso: '17'
 
     },
     {
 
         modello: 'mountain',
-        peso: '2010g'
+        peso: '20'
 
     },
 
@@ -54,36 +54,36 @@ const juventus = [
     {
 
      nome: 'Locatelli',
-     falliSubiti: '0',
-     puntiFatti: '0'
+     falliSubiti: 0,
+     puntiFatti: 0
 
     },
     {
 
      nome: 'Fagioli',
-     puntiFatti: '0',
-     falliSubiti: '0'
+     puntiFatti: 0,
+     falliSubiti: 0
 
     },
     {
 
      nome: 'Pogba',
-     puntiFatti: '0',
-     falliSubiti: '0'
+     puntiFatti: 0,
+     falliSubiti: 0
 
     },
     {
 
      nome: 'Gatti',
-     puntiFatti: '0',
-     falliSubiti: '0'
+     puntiFatti: 0,
+     falliSubiti: 0
 
     },
     {
 
      nome: 'Vlahovic',
-     puntiFatti: '0',
-     falliSubiti: '0'
+     puntiFatti: 0,
+     falliSubiti: 0
 
     },
 
